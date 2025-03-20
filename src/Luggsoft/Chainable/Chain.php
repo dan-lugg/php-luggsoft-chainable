@@ -20,8 +20,7 @@ function chain(mixed $value): ChainableInterface
         }
 
         /**
-         * @param callable(mixed):mixed $callable
-         * @return ChainableInterface
+         * {@inheritdoc}
          */
         public function then(callable $callable): ChainableInterface
         {
@@ -29,8 +28,7 @@ function chain(mixed $value): ChainableInterface
         }
 
         /**
-         * @param callable(mixed):void $callable
-         * @return ChainableInterface
+         * {@inheritdoc}
          */
         public function also(callable $callable): ChainableInterface
         {
@@ -39,8 +37,7 @@ function chain(mixed $value): ChainableInterface
         }
 
         /**
-         * @param callable(mixed):mixed|null $callable
-         * @return mixed
+         * {@inheritdoc}
          */
         public function into(callable|null $callable = null): mixed
         {
