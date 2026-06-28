@@ -44,11 +44,23 @@ Every chainable pipeline has three parts:
 
 ## Methods
 
+Each method receives the current wrapped value as the first argument to the callable.
+
 | Method | Description |
 |--------|-------------|
-| `then(callable): ChainableInterface` | Applies a callable to the wrapped value and returns a new chainable with the result |
-| `also(callable): ChainableInterface` | Applies a side-effect callable and returns the same chainable instance (value unchanged) |
-| `into(callable?): mixed` | Resolves the wrapped value, optionally applying a final callable |
+| `then(callable): ChainableInterface` | Applies a callable to the wrapped value and returns a **new** chainable with the result |
+| `also(callable): ChainableInterface` | Applies a side-effect callable and returns the **same** chainable instance (value unchanged) |
+| `into(callable?): mixed` | Resolves and returns the wrapped value, optionally applying a final callable first |
+
+### Callable signatures
+
+| Method | Callable Signature | Behaviour |
+|--------|-------------------|-----------|
+| `then()` | `fn(mixed): mixed` | Return value becomes the new wrapped value |
+| `also()` | `fn(mixed): mixed` | Return value is ignored; use for side effects |
+| `into()` | `fn(mixed): mixed` | Return value is the final result of the chain |
+
+If an exception is thrown inside any callable, it propagates out of the chain immediately.
 
 ## Examples
 
