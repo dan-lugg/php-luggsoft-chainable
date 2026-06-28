@@ -4,6 +4,7 @@
 ### Composer ###
 composer.phar
 /vendor/
+/bin/
 
 ### Intellij+iml ###
 .idea/**
@@ -76,10 +77,17 @@ Temporary Items
 /app/phpunit.xml
 /phpunit.xml
 
-# Build data
+# Build / cache data
 /build/
+/.php-cs-fixer.cache
 
 # End of https://www.toptal.com/developers/gitignore/api/intellij+iml,phpunit,composer,macos
+
+## JetBrains extras (parity with luggsoft-php-enumerable) ##
+*.iws
+.idea_modules/
+out/
+atlassian-ide-plugin.xml
 
 ## Ignore ##
 
