@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 namespace Luggsoft\Chainable;
 
 interface ChainableInterface
@@ -26,6 +28,5 @@ interface ChainableInterface
      * @param (callable():mixed)|null $callable The function to call with the current state as an argument.
      * @return mixed The result of `$callable`.
      */
-    public function into(callable|null $callable = null): mixed;
+    public function into(callable | null $callable = null): mixed;
 }
-
