@@ -10,8 +10,8 @@
     }
   ],
   "support": {
-    "issues": "https://github.com/luggsoft/luggsoft-php-chainable/issues",
-    "source": "https://github.com/luggsoft/luggsoft-php-chainable"
+    "issues": "https://github.com/dan-lugg/php-luggsoft-chainable/issues",
+    "source": "https://github.com/dan-lugg/php-luggsoft-chainable"
   },
   "keywords": [
     "chainable",

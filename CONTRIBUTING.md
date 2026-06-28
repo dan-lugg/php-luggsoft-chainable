@@ -5,7 +5,7 @@ Thank you for considering contributing to `luggsoft/chainable`.
 ## Getting Started
 
 1. Fork the repository.
-2. Clone your fork: `git clone git@github.com:your-username/luggsoft-php-chainable.git`
+2. Clone your fork: `git clone git@github.com:your-username/php-luggsoft-chainable.git`
 3. Install dependencies: `composer install`
 4. Create a feature branch: `git checkout -b feature/my-feature`
 
