@@ -3,6 +3,7 @@
 [![Packagist Version](https://img.shields.io/packagist/v/luggsoft/chainable)](https://packagist.org/packages/luggsoft/chainable)
 [![PHP Version](https://img.shields.io/packagist/php-v/luggsoft/chainable)](https://packagist.org/packages/luggsoft/chainable)
 [![License](https://img.shields.io/github/license/luggsoft/luggsoft-php-chainable)](LICENSE)
+[![CI](https://github.com/dan-lugg/php-luggsoft-chainable/actions/workflows/main.yml/badge.svg)](https://github.com/dan-lugg/php-luggsoft-chainable/actions/workflows/main.yml)
 
 A fluent, method-chaining library for PHP. Wrap any value in a chainable interface and transform it through a pipeline of callables.
 

@@ -1,24 +1,33 @@
 ---
-name: Bug report
-about: Create a report to help us improve
+name: Bug Report
+about: Report a bug to help us improve
 title: ''
 labels: bug
 assignees: ''
-
 ---
 
-**Describe the bug**
-A clear and concise description of what the bug is.
+**Description**
 
-**To Reproduce**
-Steps and/or code example to reproduce the behavior.
+A clear and concise description of the bug.
 
-**Expected behavior**
-A clear and concise description of what you expected to happen.
+**Minimal Reproduction**
 
-**Environment (please complete the following):**
-- PHP version: [e.g. 8.1, 8.2]
-- Package version: [e.g. 1.0.0]
+Provide a minimal code example that reproduces the issue:
 
-**Additional context**
-Add any other context about the problem here.
+```php
+// Code here
+```
+
+**Expected Behavior**
+
+What you expected to happen.
+
+**Actual Behavior**
+
+What actually happened (include error messages, unexpected output, etc.).
+
+**Environment**
+
+- PHP version:
+- Package version:
+- OS:

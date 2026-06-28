@@ -1,18 +1,15 @@
-## Description
+**Description**
 
-Please include a summary of the change and which issue is fixed.
+A clear and concise description of the changes.
 
-## Type of change
-
-- [ ] Bug fix
-- [ ] New feature
-- [ ] Documentation update
-- [ ] Code style / refactoring
-- [ ] Build / CI
-
-## Checklist
+**Checklist**
 
 - [ ] Tests pass (`composer test`)
 - [ ] Static analysis passes (`composer analyse`)
-- [ ] Code style is correct (`composer cs`)
-- [ ] Docblocks are updated for any new or changed functions
+- [ ] Code style is clean (`composer cs`)
+- [ ] New functionality includes tests
+- [ ] Docblocks are updated where applicable
+
+**Related Issues**
+
+Fixes #...
